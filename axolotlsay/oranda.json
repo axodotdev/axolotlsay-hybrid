@@ -1,0 +1,38 @@
+{
+  "$schema": "https://github.com/axodotdev/oranda/releases/latest/download/oranda-config-schema.json",
+  "build": {
+    "path_prefix": "axolotlsay"
+  },
+  "styles": {
+    "favicon": "https://www.axo.dev/favicon.ico",
+    "theme": "axodark"
+  },
+  "components": {
+    "changelog": true,
+    "artifacts": {
+      "cargo_dist": true,
+      "package_managers": {
+        "preferred": {
+          "npm": "npm install @axodotdev/axolotlsay --save-dev"
+        },
+        "additional": {
+          "cargo": "cargo install axolotlsay --locked",
+          "npx": "npx @axodotdev/axolotlsay",
+          "binstall": "cargo binstall axolotlsay"
+        }
+      }
+    }
+  },
+  "marketing": {
+    "social": {
+      "image": "https://www.axo.dev/meta_small.jpeg",
+      "image_alt": "axo",
+      "twitter_account": "@axodotdev"
+    },
+    "analytics": {
+      "plausible": {
+        "domain": "opensource.axo.dev"
+      }
+    }
+  }
+}
