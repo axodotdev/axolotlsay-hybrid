@@ -1,0 +1,13 @@
+# axolotlsay-js
+/axolotlsay-js/node_modules
+
+# binaries
+/axolotlsay-js/axolotlsay-js*
+/axolotlsay-js/index*
+
+# cargo-dist
+/axolotlsay-js/target
+
+# axolotlsay (Rust)
+/crates/target
+/crates/axolotlsay/public
