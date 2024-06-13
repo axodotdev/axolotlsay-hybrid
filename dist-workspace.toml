@@ -1,8 +1,6 @@
 [workspace]
-members = [
-    "axolotlsay",
-    "axolotlsay-js",
-]
+members = ["axolotlsay-js"]
+cargo-workspaces = ["axolotlsay"]
 resolver = "2"
 
 # Config for 'cargo dist'
