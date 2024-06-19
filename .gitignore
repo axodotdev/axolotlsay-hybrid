@@ -4,6 +4,8 @@
 # binaries
 /axolotlsay-js/axolotlsay-js*
 /axolotlsay-js/index*
+# unignore the source file
+!/axolotlsay-js/index.js
 
 # cargo-dist
 /axolotlsay-js/target
