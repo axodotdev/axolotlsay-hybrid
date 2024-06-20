@@ -9,6 +9,7 @@
 
 # cargo-dist
 /axolotlsay-js/target
+/target
 
 # axolotlsay (Rust)
 /crates/target
