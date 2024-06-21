@@ -13,7 +13,7 @@ install_bun_unix() {
 }
 
 # Don't install bun in interactive shells; just assume we have it
-if [ -z "${CI:-}" ] && ! type bun >/dev/null; then
+if [ -n "${CI:-}" ] && ! type bun >/dev/null; then
   case "$(uname -s)" in
     MINGW* | MSYS* | CYGWIN* | Windows_NT)
       install_bun_windows
@@ -27,7 +27,7 @@ if [ -z "${CI:-}" ] && ! type bun >/dev/null; then
   # Note: this is also valid for Windows, which also places
   # it in $HOME
   export BUN_INSTALL="$HOME/.bun"
-  export PATH="$HOME/.bun/bin/bun"
+  export PATH="$HOME/.bun/bin:$PATH"
 fi
 
 bun install
