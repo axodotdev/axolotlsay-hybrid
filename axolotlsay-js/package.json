@@ -1,10 +1,11 @@
 {
-  "name": "axolotlsay",
+  "name": "axolotlsay-js",
   "version": "0.10.2",
-  "description": "> 📄 a template for axodotdev's open source repositories",
+  "description": "JavaScript port of axolotlsay",
+  "repository": "https://github.com/axodotdev/axolotlsay-hybrid",
   "main": "index.js",
   "bin": {
-    "axolotlsay": "./bin/index.js"
+    "axolotlsay-js": "./bin/index.js"
   },
   "scripts": {
     "prebuild": "bun install",
