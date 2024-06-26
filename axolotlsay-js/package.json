@@ -6,10 +6,17 @@
   "bin": {
     "axolotlsay": "./bin/index.js"
   },
+  "scripts": {
+    "prebuild": "bun install",
+    "build": "bun build index.js --compile"
+  },
   "keywords": ["cli"],
   "author": "axodotdev <hello@axo.dev>",
   "license": "MIT-or-Apache2.0",
   "dependencies": {
     "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "bun": "^1.1.17"
   }
 }
