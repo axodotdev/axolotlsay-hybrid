@@ -28,6 +28,10 @@ if [ -n "${CARGO_DIST_TARGET:-}" ]; then
         x86_64-unknown-linux-gnu)
             bun_args="--target bun-linux-x64 --outfile ${EXE_BASENAME}"
             ;;
+        aarch64-pc-windows-msvc)
+            echo "bun doesn't currently provide ARM binaries for Windows; unable to build"
+            exit 1
+            ;;
         *)
             echo "Platform not supported: ${CARGO_DIST_TARGET}"
             exit 1
