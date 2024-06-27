@@ -1,8 +1,2 @@
 [package]
-name = "axolotlsay-js"
-description = "JavaScript port of axolotlsay"
-version = "0.10.2"
-license = "MIT"
-repository = "https://github.com/axodotdev/axolotlsay-hybrid"
-binaries = ["axolotlsay-js"]
 build-command = ["bash", "build.sh"]
