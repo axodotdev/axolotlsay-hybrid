@@ -5,7 +5,7 @@ const { hideBin } = require("yargs/helpers");
 const argv = yargs(hideBin(process.argv)).version(
   "--version",
   "Show version number",
-  "0.10.0",
+  "0.10.1",
 ).argv;
 
 const msg = argv.msg;
