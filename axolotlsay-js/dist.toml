@@ -1,2 +1,0 @@
-[package]
-build-command = ["bash", "build.sh"]

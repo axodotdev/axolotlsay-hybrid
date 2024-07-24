@@ -16,5 +16,5 @@ const argv = yargs(hideBin(process.argv)).version(
   version,
 ).argv;
 
-const msg = argv.msg;
-console.log(msg);
+const msg = argv._[0];
+console.log(`>o_o< ${msg}`);

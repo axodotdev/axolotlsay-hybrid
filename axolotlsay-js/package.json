@@ -5,11 +5,10 @@
   "repository": "https://github.com/axodotdev/axolotlsay-hybrid",
   "main": "index.js",
   "bin": {
-    "axolotlsay-js": "./bin/index.js"
+    "axolotlsay-js": "index.js"
   },
   "scripts": {
-    "prebuild": "bun install",
-    "build": "bun build index.js --compile"
+    "dist": "node dist.js"
   },
   "keywords": ["cli"],
   "author": "axodotdev <hello@axo.dev>",
