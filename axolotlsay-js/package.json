@@ -8,6 +8,7 @@
     "axolotlsay-js": "index.js"
   },
   "scripts": {
+    "predist": "npm install",
     "dist": "node dist.js"
   },
   "keywords": ["cli"],
