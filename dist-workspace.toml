@@ -4,7 +4,7 @@ members = ["cargo:crates", "npm:axolotlsay-js"]
 # Config for 'cargo dist'
 [dist]
 # The preferred cargo-dist version to use in CI (Cargo.toml SemVer syntax)
-cargo-dist-version = "0.20.0-prerelease.3"
+cargo-dist-version = "0.20.0-prerelease.4"
 # CI backends to support
 ci = "github"
 # The installers to generate for each app
